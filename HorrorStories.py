@@ -7,7 +7,7 @@ print("#########################################################################
 print(" ")
 topic = input("Give topic: ")
 print("sending...")
-openai.api_key = "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"
+openai.api_key = "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"
 
 response = openai.Completion.create(
     model="text-davinci-002",
